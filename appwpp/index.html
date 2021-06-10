@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro De Compras</title>
+    <script src="https://kit.fontawesome.com/29beff9fd0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+
+</head>
+<body>
+    <!-- Contenedor de los Productos -->
+    <section class="galeria__productos">
+        <!-- Productos -->
+        <div class="contenedor__producto contenedor__producto1">
+            <!-- imagen -->
+            <div class="producto__img">
+                <img src="img/Cuadro1.1.jpg" alt="" class="producto__img-src">
+            </div>
+            <!-- Descripción -->
+            <h3 class="producto__titulo">Cuadro 1</h3>
+            <p class="producto__precio">5000$</p>
+            <!-- Boton De Compra -->
+            <div class="contenedor__boton">
+                <button class="boton agregar__carrito"><i class="fas fa-cart-arrow-down contador"></i></button>
+            </div>
+            <!-- Link de Whasapp -->
+            <div class="link">
+                <!-- Nombre Del Producto -->
+                <p class="item__link" style="display: none;">Cuadro 1</p>
+                <!-- link Del Producto -->
+                <link href="https://api.whatsapp.com/send?phone=+543584384749&text=Cuadro1">
+            </div>
+        </div>
+        <div class="contenedor__producto">
+            <!-- imagen -->
+            <div class="producto__img">
+                <img src="img/Cuadro2.1.jpeg" alt="" class="producto__img-src">
+            </div>
+            <!-- Descripción -->
+            <h3 class="producto__titulo">Cuadro 2</h3>
+            <p class="producto__precio">5000$</p>
+            <!-- Boton De Compra -->
+            <div class="contenedor__boton">
+                <button class="boton agregar__carrito"><i class="fas fa-cart-arrow-down contador"></i></button>
+            </div>
+            <!-- Link de Whasapp -->
+            <div class="link">
+                <!-- Nombre Del Producto -->
+                <p class="item__link" style="display: none;">Cuadro 2</p>
+                <!-- link Del Producto -->
+                <link href="https://api.whatsapp.com/send?phone=+543584384749&text=Cuadro1">
+            </div>
+        </div>
+        <div class="contenedor__producto">
+            <!-- imagen -->
+            <div class="producto__img">
+                <img src="img/Cuadro3.jpeg" alt="" class="producto__img-src">
+            </div>
+            <!-- Descripción -->
+            <h3 class="producto__titulo">Cuadro 3</h3>
+            <p class="producto__precio">5000$</p>
+            <!-- Boton De Compra -->
+            <div class="contenedor__boton">
+                <button class="boton agregar__carrito"><i class="fas fa-cart-arrow-down contador"></i></button>
+            </div>
+            <!-- Link de Whasapp -->
+            <div class="link">
+                <!-- Nombre Del Producto -->
+                <p class="item__link" style="display: none;">Cuadro 3</p>
+                <!-- link Del Producto -->
+                <link href="https://api.whatsapp.com/send?phone=+543584384749&text=Cuadro3">
+            </div>
+        </div>
+        <div class="contenedor__producto">
+            <!-- imagen -->
+            <div class="producto__img">
+                <img src="img/Cuadro4.1.jpeg" alt="" class="producto__img-src">
+            </div>
+            <!-- Descripción -->
+            <h3 class="producto__titulo">Cuadro 4</h3>
+            <p class="producto__precio">5000$</p>
+            <!-- Boton De Compra -->
+            <div class="contenedor__boton">
+                <button class="boton agregar__carrito"><i class="fas fa-cart-arrow-down contador"></i></button>
+            </div>
+            <!-- Link de Whasapp -->
+            <div class="link">
+                <!-- Nombre Del Producto -->
+                <p class="item__link" style="display: none;">Cuadro 4</p>
+                <!-- link Del Producto -->
+                <link href="https://api.whatsapp.com/send?phone=+543584384749&text=Cuadro4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrito -->
+    <section class="carrito">
+        <!-- Carrito Caracteristicas -->
+        <!-- Titulo -->
+            <h3 class="carrito__titulo">MERCADO</h3>
+        <!-- Caracteristicas -->
+        <div class="contenedor__caracteristicas">
+            <!-- Por Cada Caracteristica agregar un nuevo contenedor -->
+            <div class="caracteristica__uno">
+                <div class="caracteristica__uno-contenedor">
+                    <h6 class="carrito__texto">Propiedades</h6>
+                </div>
+            </div>
+            <div class="caracteristica__dos">
+                <div class="caracteristica__dos-contenedor ">
+                    <h6 class="carrito__texto">Precio</h6>
+                </div>
+            </div>
+            <div class="caracteristica__tres">
+                <div class="caracteristica__tres-contenedor">
+                    <h6 class="carrito__texto">Cantidad</h6>
+                </div>
+            </div>
+        </div>
+        <!-- Carrito Insertar Compras -->
+        <div class="carrito__contenedor-items"></div>
+        <!-- Carrito Total -->
+        <div class="contenedor__formulario">
+            <!-- Apartado del total -->
+            <div class="carrito__compra">
+                <p class="total">Total</p>
+                <p class="total__precio">0$</p>
+                <a href="0"></a>
+            </div>
+            <!-- Boton Comprar -->
+            <div class="comprar"></div>
+            <!-- Boton Eliminar -->
+            <div>
+                <button class="eliminar">Vaciar Carrito</button>
+            </div> 
+            <!-- Formulario -->
+            <div class="formulario">
+                <!-- Nombre -->
+                <input type="text" class="nombre formulario__input" required  placeholder="Nombre">
+                <!-- Apellido -->
+                <input type="text" class="apellido formulario__input" required placeholder="Apellido">
+                <!-- Ubicacion -->
+                <input type="text" class="ubicacion formulario__input" required placeholder="Ubicacion">
+                <!-- Telefono -->
+                <input type="number" class="telefono formulario__input" required placeholder="Telefono">
+                <!-- Boton -->
+                <button class="formulario__boton">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <script src="/appwpp/app.js"></script> -->
+</body>
+</html>
